@@ -4,6 +4,7 @@ A collection of SQL practice questions, solutions, and datasets for learning and
 
 ## 📚 Topics Covered
 
+
 ### 🟢 Beginner
 
 - SELECT
@@ -14,26 +15,45 @@ A collection of SQL practice questions, solutions, and datasets for learning and
 - LIKE
 - BETWEEN
 - COUNT
+- SUM
+- AVG
+- MIN
+- MAX
 
 ### 🟡 Intermediate
 
 - GROUP BY
 - HAVING
-- Aggregate Functions
 - INNER JOIN
 - LEFT JOIN
 - RIGHT JOIN
-- CASE
 - Subqueries
+- CTEs
+- CASE
+- Aggregate Functions
 
 ### 🔴 Advanced
 
-- Common Table Expressions (CTEs)
 - Window Functions
-- Ranking Functions
+- RANK()
+- DENSE_RANK()
+- ROW_NUMBER()
+- PARTITION BY
+- Running Totals
 - Recursive Queries
 - Complex Joins
 - Advanced Subqueries
+
+### 🎯 Interview Preparation
+
+- Second Highest Salary
+- Third Highest Salary
+- Top N Records
+- Department-wise Highest Salary
+- Duplicate Records
+- Employee vs Department Average
+- Ranking Problems
+- Date-based Questions
 
 ## 📂 Repository Structure
 
@@ -44,8 +64,37 @@ sql-Imp-practice-questions/
 │   ├── questions.sql
 │   └── solutions.sql
 │
+├── 02-Filtering-and-Sorting/
+│   ├── questions.sql
+│   └── solutions.sql
+│
+├── 03-Aggregate-Functions-and-GROUP-BY/
+│   ├── questions.sql
+│   └── solutions.sql
+│
+├── 04-JOINs/
+│   ├── questions.sql
+│   └── solutions.sql
+│
+├── 05-Subqueries/
+│   ├── questions.sql
+│   └── solutions.sql
+│
+├── 06-CTEs/
+│   ├── questions.sql
+│   └── solutions.sql
+│
+├── 07-Window-Functions/
+│   ├── questions.sql
+│   └── solutions.sql
+│
+├── 08-SQL-Interview-Questions/
+│   ├── questions.sql
+│   └── solutions.sql
+│
 ├── datasets/
-│   └── sample_data.sql
+│   ├── sample_data.sql
+│   └── join_data.sql
 │
 └── README.md
 
